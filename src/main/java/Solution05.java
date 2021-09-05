@@ -8,6 +8,14 @@ import java.util.Scanner;
 public class Solution05 {
 
     public static void main(String[ ] args) {
+        //print "What is the first number? "
+        //ask for user input to variable str1
+        //convert str1 to integer (num1)
+        //print "What is the second number? "
+        //ask for user input to variable str2
+        //convert str2 to integer (num2)
+        //create variables for mathematical operators and results
+        //print all results including the two numbers given from user
         Scanner input = new Scanner(System.in);
         System.out.println("What is the first number? ");
         String str1 = (input.nextLine());
